@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class BorderBox extends Container  {
   function __construct($str_name="myborderBox") {
     parent::__construct($str_name);

@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class NavCrumbTrail extends NavTrail  {
   function __construct($str_name="mybreadcrumbTrail") {
     parent::__construct($str_name);

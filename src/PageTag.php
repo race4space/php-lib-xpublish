@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class PageTag extends Page {
   function __construct() {
 

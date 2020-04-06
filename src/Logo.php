@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class Logo extends Img {
   function __construct($str_name="mycls_logo") {
     parent::__construct($str_name);

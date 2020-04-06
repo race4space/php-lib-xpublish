@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class Bootstrap extends BaseObject{
 
   public $blue;public $indigo;public $purple;public $pink;public $red;public $orange;public $yellow;public $green;

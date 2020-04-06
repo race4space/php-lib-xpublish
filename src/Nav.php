@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class Nav extends Container  {
   public $str_href;
   function __construct($str_name="mynavNav") {

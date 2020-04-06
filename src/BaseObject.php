@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class BaseObject {
   public $int_id;
   public $str_name;

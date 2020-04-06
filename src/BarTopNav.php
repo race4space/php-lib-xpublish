@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class BarTopNav extends BorderLessBox  {
 //class BarTopNav extends Container  {
   function __construct($str_name="mynavBarTop") {

@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class PageNotFound extends Page {
   function __construct($str_name="mypageNotFound") {
     parent::__construct($str_name);

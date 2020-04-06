@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class PageSimple extends Page {
   function __construct($str_name="myPageSimple") {
     parent::__construct($str_name);

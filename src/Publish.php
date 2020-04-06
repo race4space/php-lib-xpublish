@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 $obj_file_publish;
 class Publish extends BaseObject{
 

@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class NavPillTrailItem extends NavItem  {
   function __construct($str_name="mypillTrailItem") {
     parent::__construct($str_name);

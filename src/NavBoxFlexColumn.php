@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class NavBoxFlexColumn extends NavBox {
 
   function __construct($str_name="mynavBoxFlexColumn") {

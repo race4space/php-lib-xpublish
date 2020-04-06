@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class TabPane extends Container  {
   function __construct($str_name="myTabPane") {
     parent::__construct($str_name);

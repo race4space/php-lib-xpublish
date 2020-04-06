@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 $con_host;$con_user;$con_pass;$con_schema;
 $obj_request;$obj_xpublish_const;
 $obj_site;$obj_page;$obj_publish;$obj_bootstrap;

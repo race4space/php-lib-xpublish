@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class Page extends Nav {
 
   function __construct($str_name="myPage") {

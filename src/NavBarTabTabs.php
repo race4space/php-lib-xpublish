@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class cls_navBarTabTabs extends cls_navPanes {
   function __construct($str_name="mynavBarTabTabs") {
     parent::__construct($str_name);

@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class SiteItem extends Container {
   function __construct($str_name="mySite") {
     parent::__construct($str_name);

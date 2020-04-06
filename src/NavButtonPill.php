@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class NavButtonPill extends NavItem  {
   function __construct($str_name="mynavButtonPill") {
     parent::__construct($str_name);

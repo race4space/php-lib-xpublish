@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class PageDelight extends Page {
   function __construct($str_name="mypageDelight") {
     parent::__construct($str_name);

@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class NavBarButtonPills extends NavBox {
   function __construct($str_name="mylinkPills") {
     parent::__construct($str_name);

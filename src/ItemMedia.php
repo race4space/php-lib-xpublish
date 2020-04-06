@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class ItemMedia extends PdoObject  {
   public $content;
   function __construct($str_name="mymediaItem") {

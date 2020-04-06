@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class NavBox extends Container  {
 
   function __construct($str_name="mynavBox") {

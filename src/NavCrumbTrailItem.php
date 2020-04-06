@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class NavCrumbTrailItem extends NavItem  {
   function __construct($str_name="mybreadCrumbItem") {
     parent::__construct($str_name);

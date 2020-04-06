@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class NavTabPill extends NavItem  {
   function __construct($str_name="mynavPill") {
     parent::__construct($str_name);

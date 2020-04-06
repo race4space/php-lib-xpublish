@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class NavTrail extends Nav  {
   function fn_execute() {
       global $obj_site;

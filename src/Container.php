@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class Container extends PdoObject  {
 
   function __construct($str_name="myContainer") {

@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class LinkToItem extends Nav  {
   function __construct($str_name="mylinkToItem") {
     parent::__construct($str_name);

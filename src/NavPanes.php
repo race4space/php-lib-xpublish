@@ -1,5 +1,5 @@
 <?php
-namespace phpXPublish;
+namespace phpxpublish;
 class cls_navPanes extends Nav  {
   function __construct($str_name="mynavPanes") {
     parent::__construct($str_name);
