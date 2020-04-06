@@ -1,5 +1,5 @@
 <?php
-namespace xpublish;
+namespace phpxpublish;
 class Img extends Nav  {
   public $str_src;
   function __construct($str_name="mynavNav") {
