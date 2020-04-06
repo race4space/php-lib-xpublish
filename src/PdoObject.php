@@ -20,7 +20,7 @@ class PdoObject extends BaseObject  {
     $this->str_sql="";
     $this->params=[];
 
-    $this->obj_pdo=new \race4space\PDO;
+    $this->obj_pdo=new \phprace4space\PDO;
 
     global $con_host;
     global $con_user;

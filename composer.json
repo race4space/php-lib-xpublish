@@ -1,7 +1,7 @@
 {
     "name": "race4space/phpxpublish",
     "description": "A Web Publishing Tool",
-    "type": "Library",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -17,5 +17,7 @@
     "config": {
         "sort-packages": true
     },
-    "require": {}
+    "require": {
+        "race4space/phprace4space": "^1.0"
+    }
 }
