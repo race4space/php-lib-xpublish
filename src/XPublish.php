@@ -43,7 +43,7 @@ echo <<< CLIENT
     <script src="/data-xplorer/_client/data.js"></script>
     <script src="/data-xplorer/_client/modal.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="/xtheme/mystyle_v3.css">
+    <link rel="stylesheet" type="text/css" href="/theme/mystyle_v3.css">
     <title>Console</title>
     <body style="overflow-y: scroll;">
 CLIENT;
