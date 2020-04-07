@@ -1,5 +1,5 @@
 {
-    "name": "race4space/phpxpublish",
+    "name": "race4space/php-lib-xpublish",
     "description": "A Web Publishing Tool",
     "type": "library",
     "license": "MIT",
@@ -18,6 +18,6 @@
         "sort-packages": true
     },
     "require": {
-        "race4space/phplibrary": "^1.0"
+        "race4space/php-lib-library": "^1.1"
     }
 }
