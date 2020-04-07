@@ -22,7 +22,7 @@ class XPublish{
     global $obj_site;
     global $obj_publish;
 
-    $obj_request=new \phprace4space\ServerVariables();
+    $obj_request=new \phplibrary\ServerVariables();
     $obj_xpublish_const=new XPublishConstant();
     $obj_site=new SiteItem();
     $obj_publish=new Publish($obj_site->obj_page);

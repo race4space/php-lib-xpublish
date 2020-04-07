@@ -18,6 +18,6 @@
         "sort-packages": true
     },
     "require": {
-        "race4space/phprace4space": "^1.0"
+        "race4space/phplibrary": "^1.0"
     }
 }
