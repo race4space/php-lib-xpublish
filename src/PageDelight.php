@@ -14,7 +14,7 @@ class PageDelight extends Page {
       $obj_trail->fn_write($obj_site->row["id"]);
       //*/
 
-      //fn_echo("str_tags", $this->str_tags);
+      //$this->fn_echo("str_tags", $this->str_tags);
       //echo "<!-- start page -->'";
       $this->fn_write_containerBox_start();
 

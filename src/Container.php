@@ -1,6 +1,6 @@
 <?php
 namespace phpxpublish;
-class Container extends PdoObject  {
+class Container extends PdoObject  { 
 
   function __construct($str_name="myContainer") {
     parent::__construct($str_name);
@@ -36,7 +36,7 @@ class Container extends PdoObject  {
     echo PHP_EOL;
     $this->fn_compile();
 
-    //fn_echo("this->str_type",$this->str_type);
+    //$this->fn_echo("this->str_type",$this->str_type);
 
     $s='';
     $s.='<'.$this->str_type_html.' ';

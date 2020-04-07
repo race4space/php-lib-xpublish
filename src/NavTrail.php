@@ -1,6 +1,7 @@
 <?php
 namespace phpxpublish;
 class NavTrail extends Nav  {
+
   function fn_execute() {
       global $obj_site;
       $this->fn_write($obj_site->row["id"]);
@@ -28,7 +29,7 @@ class NavTrail extends Nav  {
               $obj_nav=new NavCrumbTrailItem();
         break;
         default:
-          fn_echo("Trail Type Not Found", $this->int_id_type);
+          $this->fn_echo("Trail Type Not Found", $this->int_id_type);
       }
       $obj_nav->str_sql="SELECT * FROM `container` WHERE id=? and type=?;";
       $obj_nav->params=[$int_id_parent, $obj_xpublish_const->const_type_PageItem];

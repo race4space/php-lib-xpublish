@@ -80,7 +80,7 @@ class Publish extends BaseObject{
     if(!is_dir($fpath)) {
       mkdir($fpath);
       return true;
-      if($this->bln_debug){fn_echo("1. Page Parent Folder created", $fpath);}
+      if($this->bln_debug){$this->fn_echo("1. Page Parent Folder created", $fpath);}
     }
     return false;
   }

@@ -1,7 +1,6 @@
 <?php
 namespace phpxpublish;
-class Bootstrap extends BaseObject{
-
+class Bootstrap extends BaseObject{  
   public $blue;public $indigo;public $purple;public $pink;public $red;public $orange;public $yellow;public $green;
   public $teal;public $cyan;public $white;public $gray;public $gray_dark;public $primary;public$secondary;
   public $success;public $info;public $warning;public $danger;public $light;public $dark;
@@ -30,8 +29,8 @@ class Bootstrap extends BaseObject{
     $this->light="#f8f9fa";
     $this->dark="#343a40";
 
-    //fn_echo("theme_color", $theme_color);
-    //fn_echo("name", $name);
+    //$this->fn_echo("theme_color", $theme_color);
+    //$this->fn_echo("name", $name);
 
     $this->str_theme=$str_theme;
     switch ($str_theme) {

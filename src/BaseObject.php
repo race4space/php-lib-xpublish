@@ -1,6 +1,7 @@
 <?php
 namespace phpxpublish;
 class BaseObject {
+
   public $int_id;
   public $str_name;
   function __construct($str_name="myObject") {
@@ -38,6 +39,11 @@ class BaseObject {
           $this->bln_active=true;
         break;
     }
+  }
+  function fn_execute() {
+    //$this->fn_echo("Information", "cls object execute");
+  }
+  function fn_load($obj) {
   }
   function fn_in_str($needle, $haystack){
     $int_pos=strpos($haystack, $needle);
@@ -88,11 +94,6 @@ class BaseObject {
     }
     $s.="</div>".PHP_EOL;
     return $s;
-  }
-  function fn_execute() {
-    fn_echo("Information", "cls object execute");
-  }
-  function fn_load($obj) {
   }
   function __destruct() {
       //echo "Destroying " . __CLASS__ . " ".$this->name."</br>";

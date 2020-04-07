@@ -109,7 +109,7 @@ class PdoObject extends BaseObject  {
       default:
     }
     if(empty($obj_child)){
-      fn_echo("Type Not Found", $int_id_type);
+      $this->fn_echo("Type Not Found", $int_id_type);
       die();
     }
     return $obj_child;
@@ -124,8 +124,8 @@ class PdoObject extends BaseObject  {
 
     //$obj_child=new PdoObject(
     /*
-    fn_echo("int_id_type", $int_id_type);
-    fn_echo("str_type", $str_type);
+    $this->fn_echo("int_id_type", $int_id_type);
+    $this->fn_echo("str_type", $str_type);
     //*/
 
     $str_sql="SELECT * FROM `container` WHERE type=? and cid=? and live LIMIT 1 ;";
