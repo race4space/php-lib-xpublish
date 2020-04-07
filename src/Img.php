@@ -15,7 +15,7 @@ class Img extends Nav  {
       $s="";
       //$s.='<a  href="'.$obj_page->str_href_parent.'">';
       $s.='<a  href="'.$this->str_href.'">';
-      $s.='<img class="my-max" alt="'.$this->str_title.'" style="border:0px solid black" src="'.$this->str_src.'">';
+      $s.='<img alt="'.$this->str_title.'" style="border:0px solid black" src="'.$this->str_src.'">';
       $s.='</a>';
       echo $s;
     }
