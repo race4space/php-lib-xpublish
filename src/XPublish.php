@@ -28,7 +28,7 @@ class XPublish{
     $obj_publish=new Publish($obj_site->obj_page);
 
     $obj_publish->fn_start();
-echo <<< CLIENT
+echo <<<CLIENT
     <!DOCTYPE html>
     <title></title>
     <meta charset="utf-8">
@@ -43,7 +43,7 @@ echo <<< CLIENT
     <body style="overflow-y: scroll;">
 CLIENT;
     $obj_site->fn_execute();
-echo <<< CLIENT
+echo <<<CLIENT
     </body>
 CLIENT;
     $obj_publish->fn_end();
