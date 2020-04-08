@@ -19,9 +19,9 @@ class PageTag extends Page {
       echo '<script src="/'.$this->str_tag.'/_client/data.js"></script>'.PHP_EOL;
       echo '<script src="/'.$this->str_tag.'/_client/modal.js"></script>'.PHP_EOL;
       //*/
-      //echo '<script src="/'.$this->str_tag.'/_client/tag.js"></script>'.PHP_EOL;
+      echo '<script src="/'.$this->str_tag.'/_client/tag.js"></script>'.PHP_EOL;
 
-      echo '<script src="/xpublish/app/'.$this->str_tag.'/_client/tag.js"></script>'.PHP_EOL;
+      //echo '<script src="/xpublish-app/'.$this->str_tag.'/_client/tag.js"></script>'.PHP_EOL;
       $this->fn_write_containerBox_end();
     }
     catch(PDOException $e) {
