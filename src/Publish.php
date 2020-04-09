@@ -48,7 +48,7 @@ class Publish extends BaseObject{
     $this->fn_set_path();
     $this->fn_create_path();
     $this->fn_open_file();
-    ob_start('ob_file_callback');
+    ob_start('\\'.__NAMESPACE__ .'\ob_file_callback');
   }
   function fn_end(){
     if(!$this->bln_publish_file){return;}
