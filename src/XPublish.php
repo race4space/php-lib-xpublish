@@ -14,6 +14,10 @@ class XPublish{
     $con_pass=$mycon_pass;
     $con_host=$mycon_host;
     $con_schema=$mycon_schema;
+    //*
+    $this->obj_pdo=new \phplibrary\PDO;
+    $this->obj_pdo->fn_connect($con_host, $con_user, $con_pass, $con_schema);
+    //*/
   }
   function fn_execute() {
 

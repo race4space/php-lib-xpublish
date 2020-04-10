@@ -22,12 +22,18 @@ class PdoObject extends BaseObject  {
 
     $this->obj_pdo=new \phplibrary\PDO;
 
+    /*
     global $con_host;
     global $con_user;
     global $con_pass;
     global $con_schema;
-
+    $this->obj_pdo=new \phplibrary\PDO;
     $this->obj_pdo->fn_connect($con_host, $con_user, $con_pass, $con_schema);
+    //*/
+    //*
+    global $obj_xpublish;
+    $this->obj_pdo=$obj_xpublish->obj_pdo;
+    //*/
   }
   function fn_debug() {
     parent::fn_debug();
