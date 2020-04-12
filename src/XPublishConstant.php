@@ -33,7 +33,7 @@ class XPublishConstant {
   public $const_tid_mediaItem=810;
 
   public $const_tid_template=1000;
-  public $const_tid_pagetagOpen=1003;
+  public $const_tid_pageItem=1003;
   public $const_tid_pageSimple=1005;
   public $const_tid_pageDelight=1010;
   public $const_tid_myTutorialNavBar=2000;

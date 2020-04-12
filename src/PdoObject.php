@@ -103,7 +103,7 @@ class PdoObject extends BaseObject  {
       case $obj_xpublish_const->const_tid_pageSimple:
         $obj_child=new PageSimple();
       break;
-      case $obj_xpublish_const->const_tid_pagetagOpen:
+      case $obj_xpublish_const->const_tid_pageItem:
         $obj_child=new PageTag();
       break;
       case $obj_xpublish_const->const_tid_pageDelight:
