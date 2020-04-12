@@ -8,7 +8,7 @@ class PageSimple extends Page {
   function fn_execute() {
 
     try{
-      $this->fn_write_containerBox_start();
+      $this->fn_write_ycontainerBox_start();
       //Write Self
       $this->fn_write_NavTitle();
       //Write Self
@@ -17,7 +17,7 @@ class PageSimple extends Page {
       //Write Children
       $this->fn_write_containerBox_end();
     }
-    catch(PDOException $e) {
+    catch(\PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
   }//end function execute

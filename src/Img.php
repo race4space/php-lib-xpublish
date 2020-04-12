@@ -19,7 +19,7 @@ class Img extends Nav  {
       $s.='</a>';
       echo $s;
     }
-    catch(PDOException $e) {
+    catch(\PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
   }//end function execute

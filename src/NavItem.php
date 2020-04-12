@@ -38,7 +38,7 @@ class NavItem extends Nav  {
       //$s.='</li>'.PHP_EOL;
       return $s;
     }
-    catch(PDOException $e) {
+    catch(\PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
   }

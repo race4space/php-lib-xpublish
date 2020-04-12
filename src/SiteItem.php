@@ -52,7 +52,7 @@ class SiteItem extends Container {
 
       $this->obj_page->fn_execute();
   }
-    catch(PDOException $e) {
+    catch(\PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
   }

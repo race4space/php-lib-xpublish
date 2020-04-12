@@ -12,7 +12,7 @@ class LinkToItem extends Nav  {
       $obj_link->fn_adopt_id();
       $obj_link->fn_execute();
     }
-    catch(PDOException $e) {
+    catch(\PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
   }//end function execute

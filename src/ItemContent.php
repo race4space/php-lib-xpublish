@@ -16,7 +16,7 @@ class ItemContent extends PdoObject  {
       $s.="</p>";
       echo $s;
     }
-    catch(PDOException $e) {
+    catch(\PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
   }//end function execute

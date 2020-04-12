@@ -22,7 +22,7 @@ class ItemMedia extends PdoObject  {
       //Write Content Item
       //Write Children
     }
-    catch(PDOException $e) {
+    catch(\PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
   }//end function execute

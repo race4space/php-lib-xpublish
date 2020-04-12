@@ -45,7 +45,7 @@ class NavTrail extends Nav  {
         $this->fn_map($obj_nav->int_id_parent);//recursive call to fn_map
       }
     }
-    catch(PDOException $e) {
+    catch(\PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
   }
