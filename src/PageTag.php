@@ -18,8 +18,7 @@ class PageTag extends Page {
       echo '<script src="/xpublish/_client/modal.js"></script>'.PHP_EOL;
       echo '<script src="/'.$this->str_tag.'/_client/tag.js"></script>'.PHP_EOL;
       //*/
-      //*
-      echo '<script src="/'.$this->str_tag.'/_client/jquery.searchit.js"></script>'.PHP_EOL;
+      //*      
       echo '<script src="/'.$this->str_tag.'/_client/data.js"></script>'.PHP_EOL;
       echo '<script src="/'.$this->str_tag.'/_client/modal.js"></script>'.PHP_EOL;
       echo '<script src="/'.$this->str_tag.'/_client/tag.js"></script>'.PHP_EOL;
