@@ -1,5 +1,7 @@
+composer.phar
 /vendor/
+*.lock
+
 *.log
 *.tmp
-*.lock
 /temp
