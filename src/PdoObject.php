@@ -179,6 +179,7 @@ class PdoObject extends BaseObject  {
   function fn_grow(){
     $this->fn_born();
     $this->row = $this->stmt->fetch();
+    //$this->fn_echo($this->obj_pdo->interpolateQuery($this->str_sql, $this->params));
     if($this->row){
       $this->fn_load($this->row);
     }
@@ -198,6 +199,11 @@ class PdoObject extends BaseObject  {
 
     global $obj_xpublish_const;
 
+    if(empty($this->int_id)){
+      $this->fn_write_message("Erorr", "PdoObject int_id is zero");
+      die();
+    }
+
 
 
     $s="";
@@ -210,7 +216,7 @@ class PdoObject extends BaseObject  {
     }
     $s.="and live order by tab; ";
     $this->str_sql=$s;
-    //echo $this->obj_pdo->interpolateQuery($this->str_sql, $this->params);
+    //$this->fn_echo($this->obj_pdo->interpolateQuery($this->str_sql, $this->params));
     $stmt = $this->obj_pdo->pdo->prepare($this->str_sql);
     $this->fn_born();
   }
