@@ -1,6 +1,7 @@
 <?php
 namespace phpxpublish;
 class BaseObject {
+  use \phplibrary\General;
 
   public $int_id;
   public $str_name;
@@ -18,7 +19,7 @@ class BaseObject {
     $this->str_content = "";
   }
   function fn_debug() {
-    fn_write_debug("", get_object_vars($this));
+    $this->fn_write_debug("", get_object_vars($this));
   }
   function fn_get_active() {
 
@@ -51,49 +52,6 @@ class BaseObject {
       return false;
     }
     return true;
-  }
-  function fn_write_message($str_title, $foo_message){
-    if(is_array($foo_message)){
-      $s="";
-      foreach ($foo_message as $key => $value) {
-        $foo_value=$value;
-        if(is_array($foo_value)){
-          $foo_value="native array";
-        }
-        else if(is_object($foo_value)){
-          $foo_value="native object";
-        }
-        $s.=fn_get_echo($key, $foo_value);
-      }
-      $str_message=$s;
-    }
-    else{
-        $str_message=$foo_message;
-    }
-
-    $str="";
-    $str=$str.'<h1>'.$str_title.'</h1><p>'."\r\n";
-    $str=$str.$str_message;
-    $this->fn_write_container($str);
-  }
-  function fn_write_container($str){
-
-    echo '<div class="container p-3 my-3 bg-dark text-white rounded-lg">'."\r\n";
-    echo $str."\r\n";
-    echo '</div>'."\r\n";
-  }
-  function fn_echo($lab, $str=""){
-    echo($this->fn_get_echo($lab, $str));
-  }
-  function fn_get_echo($lab, $str){
-    $s="<div>";
-    $s.=$lab;
-    if(!empty($str) or  $str==="0"){
-      $s.=": ";
-      $s.=$str;
-    }
-    $s.="</div>".PHP_EOL;
-    return $s;
   }
   function __destruct() {
       //echo "Destroying " . __CLASS__ . " ".$this->name."</br>";
