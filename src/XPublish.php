@@ -4,7 +4,7 @@ $con_host;$con_user;$con_pass;$con_schema;
 $obj_request;$obj_xpublish_const;
 $obj_site;$obj_page;$obj_publish;$obj_bootstrap;
 
-class Publish{
+class XPublish{
   function __construct($mycon_user, $mycon_pass, $mycon_host="localhost", $mycon_schema="my-vm") {
     global $con_user;
     global $con_pass;
